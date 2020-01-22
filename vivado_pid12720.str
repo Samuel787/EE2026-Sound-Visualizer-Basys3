@@ -1,0 +1,121 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 12720
+License: Customer
+
+Current time: 	Wed Apr 03 23:23:02 SGT 2019
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 120 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	sdssa
+User home directory: C:/Users/sdssa
+User working directory: C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2018.2
+RDI_DATADIR: D:/Vivado/2018.2/data
+RDI_BINDIR: D:/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/sdssa/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/sdssa/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/sdssa/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New/vivado.log
+Vivado journal file location: 	C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New/vivado.jou
+Engine tmp dir: 	C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New/.Xil/Vivado-12720-DESKTOP-LOM14M0
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Vivado/2018.2
+XILINX_SDK: D:/SDK/2018.2
+XILINX_VIVADO: D:/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Vivado/2018.2
+
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 521 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 67 MB (+67517kb) [00:00:05]
+// [Engine Memory]: 471 MB (+342641kb) [00:00:05]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\sdssa\OneDrive\Desktop\VC5 - Samuel- New\Audio_Viz_Project_Template.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project {C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New/Audio_Viz_Project_Template.xpr} 
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New/Audio_Viz_Project_Template.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/sdssa/OneDrive/Desktop/VC4 - Samuel - Wednesday' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 563 MB (+71007kb) [00:00:09]
+// [Engine Memory]: 604 MB (+14361kb) [00:00:11]
+// [GUI Memory]: 73 MB (+3073kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 4/3/19 11:23:07 PM SGT
+// Project name: Audio_Viz_Project_Template; location: C:/Users/sdssa/OneDrive/Desktop/VC5 - Samuel- New; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 869.785 ; gain = 123.234 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), set_up_anode : my_anode_display_module (my_anode_display_module.v)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), theme_selector : theme_selector (theme_selector.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_waveform : Draw_Waveform (Draw_Waveform.v)]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), menu_screen : project_menu_screen (project_menu_screen.v)]", 13, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 14, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), menu_screen : project_menu_screen (project_menu_screen.v)]", 13, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 14, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), VGA_DISPLAY : VGA_DISPLAY (VGA_DISPLAY.v)]", 15, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_background : Draw_Background (Draw_Background.v)]", 14, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), menu_screen : project_menu_screen (project_menu_screen.v)]", 13, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_waveform : Draw_Waveform (Draw_Waveform.v)]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), theme_selector : theme_selector (theme_selector.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), set_up_anode : my_anode_display_module (my_anode_display_module.v)]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), theme_selector : theme_selector (theme_selector.v)]", 11, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), draw_waveform : Draw_Waveform (Draw_Waveform.v)]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Voice_Scope_TOP (Voice_Scope_TOP.v), theme_selector : theme_selector (theme_selector.v)]", 11, true); // B (D, ck) - Node
+// Elapsed time: 54 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 293, 191); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("Voice_Scope_TOP.v", 163, 240); // ce (w, ck)

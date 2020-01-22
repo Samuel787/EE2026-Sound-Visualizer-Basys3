@@ -1,0 +1,144 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  6 23:06:25 2019
+| Host         : DESKTOP-LOM14M0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Voice_Scope_TOP_control_sets_placed.rpt
+| Design       : Voice_Scope_TOP
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    75 |
+| Unused register locations in slices containing registers |    88 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      4 |            1 |
+|      8 |            5 |
+|     10 |            3 |
+|     12 |            2 |
+|    16+ |           62 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             464 |          135 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             510 |           93 |
+| Yes          | No                    | No                     |             238 |           36 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             500 |          122 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+----------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|              Clock Signal              |                       Enable Signal                      |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++----------------------------------------+----------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          | set_up_led/SR[0]                              |                1 |              2 |
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          | set_up_anode/sel0[0]                          |                1 |              2 |
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          | set_up_led/SR[1]                              |                2 |              4 |
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          | set_up_led/SR[2]                              |                3 |              8 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 |                                                          | help/instruction8/pixel_reg_0                 |                4 |              8 |
+|  clk_80hz_BUFG                         | nolabel_line169/pulse_up/dff2/E[0]                       |                                               |                1 |              8 |
+|  clk_80hz_BUFG                         | adjust_wave/m[11]_i_1_n_0                                | adjust_wave/m[13]_i_1_n_0                     |                2 |              8 |
+|  clk_80hz_BUFG                         | adjust_wave/A[7]_i_1_n_0                                 |                                               |                2 |              8 |
+|  clk_12hz_BUFG                         | draw_background/E[0]                                     | draw_background/bullet_green                  |                3 |             10 |
+|  clk_12hz_BUFG                         |                                                          |                                               |                5 |             10 |
+|  clk_80hz_BUFG                         | adjust_wave/A[7]_i_1_n_0                                 | adjust_wave/m[30]_i_1_n_0                     |                3 |             10 |
+|  clk_80hz_BUFG                         | adjust_wave/m[11]_i_1_n_0                                |                                               |                2 |             12 |
+|  CLK_IBUF_BUFG                         |                                                          |                                               |                5 |             12 |
+|  clk_div_5hz/clk_5hz                   |                                                          | get_max/led_reg[2]                            |                4 |             16 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/temp[9]_i_1_n_0                            |                                               |                5 |             20 |
+|  clk_12hz_BUFG                         | draw_background/bullet_vertbound2[11]_i_2_n_0            | draw_background/bullet_vertbound2[11]_i_1_n_0 |                3 |             22 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 |                                                          | help/instruction24/pixel_reg_2                |                8 |             22 |
+|  clk_12hz_BUFG                         | draw_background/bullet_vertbound1[1]_i_2_n_0             | draw_background/bullet_vertbound1[1]_i_1_n_0  |                3 |             22 |
+|  clk_12hz_BUFG                         | draw_background/bullet_vertbound2[11]_i_1_n_0            |                                               |                4 |             22 |
+|  clk_div_clk_pseudo/clk_for_pseudo     |                                                          |                                               |                8 |             22 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 |                                                          | nolabel_line218/VGA_CONTROL/VGA_RED_reg[3]_0  |                5 |             24 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 | draw_waveform/VGA_Red_waveform[3]_i_2_n_0                | draw_waveform/VGA_Red_waveform0               |               12 |             24 |
+| ~nolabel_line74/J_MIC3_Pin4_OBUF       |                                                          |                                               |                4 |             24 |
+|  CLK_IBUF_BUFG                         |                                                          | J_MIC3_Pin1_OBUF_BUFG                         |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | get_max/clear                                            |                                               |                2 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | get_max/p_0_in                                           | get_max/clear                                 |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          | get_max/clear                                 |                4 |             26 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_1088_1151_0_2_i_1_n_0 |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_128_191_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_1152_1215_0_2_i_1_n_0 |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_1024_1087_0_2_i_1_n_0 |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_448_511_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_576_639_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_384_447_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_512_575_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_256_319_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_320_383_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_192_255_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_896_959_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_64_127_0_2_i_1_n_0    |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_704_767_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_768_831_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_640_703_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_960_1023_0_2_i_1_n_0  |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_832_895_0_2_i_1_n_0   |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_0_63_0_2_i_1_n_0      |                                               |                4 |             28 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_r2_1216_1279_0_2_i_1_n_0 |                                               |                4 |             28 |
+|  clk_div_5hz/clk_5hz                   |                                                          |                                               |                9 |             32 |
+|  clk_12hz_BUFG                         | draw_background/sel                                      | draw_background/vertbound2[9]_i_1_n_0         |                5 |             40 |
+|  clk_12hz_BUFG                         | draw_background/sel                                      | draw_background/vertbound4[9]_i_1_n_0         |                6 |             40 |
+|  clk_12hz_BUFG                         | draw_background/sel                                      | draw_background/vertbound6[9]_i_1_n_0         |                6 |             40 |
+|  clk_12hz_BUFG                         | draw_background/sel                                      | draw_background/clear                         |                5 |             40 |
+|  clk_80hz_BUFG                         | adjust_wave/m[11]_i_1_n_0                                | adjust_wave/m[30]_i_1_n_0                     |                8 |             42 |
+|  clk_12hz_BUFG                         | draw_background/bullet_horzbound2[11]_i_1_n_0            |                                               |                8 |             48 |
+|  CLK_IBUF_BUFG                         |                                                          | clk_div_5hz/clear                             |                8 |             62 |
+|  CLK_IBUF_BUFG                         |                                                          | clk_div_80hz/clear                            |                8 |             62 |
+|  CLK_IBUF_BUFG                         |                                                          | clk_div_clk_pseudo/clear                      |                8 |             62 |
+|  CLK_IBUF_BUFG                         |                                                          | clk_div_12hz/clear                            |                8 |             62 |
+|  CLK_IBUF_BUFG                         |                                                          | clk_div_20khz/clear                           |                8 |             62 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 |                                                          | nolabel_line218/VGA_CONTROL/eqOp2_in          |               18 |             64 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_384_511_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_512_639_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_640_767_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_1152_1279_0_0_i_1_n_0    |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_1024_1151_0_0_i_1_n_0    |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_128_255_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_0_127_0_0_i_2_n_0        |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_256_383_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_896_1023_0_0_i_1_n_0     |                                               |               10 |             80 |
+|  J_MIC3_Pin1_OBUF_BUFG                 | draw_waveform/Sample_Memory_reg_768_895_0_0_i_1_n_0      |                                               |               10 |             80 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 |                                                          |                                               |               41 |             96 |
+|  clk_12hz_BUFG                         | draw_background/sel                                      |                                               |               12 |             96 |
+|  J_MIC3_Pin1_OBUF_BUFG                 |                                                          |                                               |               22 |            104 |
+|  clk_80hz_BUFG                         |                                                          |                                               |               41 |            164 |
+|  nolabel_line218/VGA_CLK_108M/clk_out1 | nolabel_line218/VGA_CONTROL/eqOp2_in                     | nolabel_line218/VGA_CONTROL/v_cntr_reg0__11   |               63 |            178 |
++----------------------------------------+----------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+
